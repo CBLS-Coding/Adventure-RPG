@@ -1,6 +1,6 @@
 import random
 
-print("Welcome new adventurer!")
+print("Welcome new Adventurer!")
 print("Before we begin our journey, please enter your details")
 
 name = input("Please enter your name: ")
