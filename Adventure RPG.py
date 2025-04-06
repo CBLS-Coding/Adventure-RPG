@@ -318,19 +318,21 @@ while(gameRunning):
             weapon = "dagger"
             gold -= 20
             STR += 9
+            print("STR: " + str(STR))
             print("Gideon bought the " + str(itemToBuy) + "!")
             print("gold remaining: " + str(gold))
         elif itemToBuy == "mace" and weapon != "mace" and gold >= 50:
             weapon = "mace"
             gold -= 50
             STR += 38
+            print("STR: " + str(STR))
             print("Gideon bought the " + str(itemToBuy) + "!")
             print("gold remaining: " + str(gold))
         elif itemToBuy == "katana" and weapon != "katana" and gold >= 70:
             weapon = "katana"
             gold -= 70
             STR += 65
-            print("HP: " + str(HP))
+            print("STR: " + str(STR))
             print("Gideon bought the " + str(itemToBuy) + "!")
             print("gold remaining: " + str(gold))
         elif itemToBuy == "cap" and head != "cap" and gold >= 20:
